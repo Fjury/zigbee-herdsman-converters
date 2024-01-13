@@ -1,5 +1,23 @@
 # Changelog
 
+## [18.12.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v18.11.0...v18.12.0) (2024-01-13)
+
+
+### Features
+
+* **add:** L2207 ([#6891](https://github.com/Koenkk/zigbee-herdsman-converters/issues/6891)) ([4da96c5](https://github.com/Koenkk/zigbee-herdsman-converters/commit/4da96c5fb50fb991b0c01f40e2eb37cd8e89d18d))
+* Support co2 in defintion generator https://github.com/Koenkk/zigbee-herdsman-converters/pull/6890 ([6c724a1](https://github.com/Koenkk/zigbee-herdsman-converters/commit/6c724a19be51f9b6844a9da91fd5b8183f35c128))
+
+
+### Bug Fixes
+
+* **detect:** Detect `_TZ3000_0ht8dnxj` as TuYa TS004F ([#6888](https://github.com/Koenkk/zigbee-herdsman-converters/issues/6888)) ([d49a030](https://github.com/Koenkk/zigbee-herdsman-converters/commit/d49a0303b55f8a67a444b6e36f2f2753693e0e0b))
+* Disable unsupported `power_on_behavior` for various ShinaSystem devices ([#6886](https://github.com/Koenkk/zigbee-herdsman-converters/issues/6886)) ([a7277de](https://github.com/Koenkk/zigbee-herdsman-converters/commit/a7277de441b54b2adbeb433b4397a3ae37c19ccf))
+* Fix battery reporting for E2013 ([#6892](https://github.com/Koenkk/zigbee-herdsman-converters/issues/6892)) ([af0d9e4](https://github.com/Koenkk/zigbee-herdsman-converters/commit/af0d9e424e4f20c21e4b489a318376e6e5ba2ab7))
+* Fix Xiaomi ZNCWWSQ01LM 0 days schedule parsing https://github.com/Koenkk/zigbee2mqtt/issues/20130 ([9496119](https://github.com/Koenkk/zigbee-herdsman-converters/commit/9496119f286c9761f14bae65577c3c00029ebf4b))
+* **ignore:** change pendingRequestTimeout quirk to checkinInterval ([#6884](https://github.com/Koenkk/zigbee-herdsman-converters/issues/6884)) ([35f962c](https://github.com/Koenkk/zigbee-herdsman-converters/commit/35f962cf7401811f7139b9d150eadf771c46dab8))
+* **ignore:** update dependencies ([#6899](https://github.com/Koenkk/zigbee-herdsman-converters/issues/6899)) ([5e58f2e](https://github.com/Koenkk/zigbee-herdsman-converters/commit/5e58f2e66e9ebfb863539bcca233a2ee2ca6bf37))
+
 ## [18.11.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v18.10.1...v18.11.0) (2024-01-11)
 
 
